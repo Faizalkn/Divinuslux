@@ -1,0 +1,14 @@
+{
+  "name": "personal-expense-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MERN personal expense tracker",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
